@@ -6,21 +6,21 @@ menuController = {
         nombre: "Carpaccio fresco",
         descripcion: "Entrada Carpaccio de salmón con cítricos",
         precio: 65.5,
-        imagenUrl: "images/Carpaccio-de-salmon.jpg",
+        imagenUrl: "/images/Carpaccio-de-salmon.jpg",
       },
       {
         id: 2,
         nombre: "Risotto de berenjenao",
         descripcion: "Risotto de berenjena y queso de cabra",
         precio: 47.0,
-        imagenUrl: "images/Risotto-berenjena-queso-cabra.jpg",
+        imagenUrl: "/images/Risotto-berenjena-queso-cabra.jpg",
       },
       {
         id: 3,
         nombre: "Mousse de arroz",
         descripcion: "Mousse de arroz con leche y aroma de azahar",
         precio: 27.5,
-        imagenUrl: "images/Mousse-de-arroz-con-leche.jpg",
+        imagenUrl: "/images/Mousse-de-arroz-con-leche.jpg",
       },
       {
         id: 4,
@@ -28,7 +28,7 @@ menuController = {
         descripcion:
           "Espárragos blancos con vinagreta de verduras y jamón ibérico",
         precio: 37.5,
-        imagenUrl: "images/esparragos.png",
+        imagenUrl: "/images/esparragos.png",
       },
     ];
   },
