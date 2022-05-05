@@ -4,7 +4,7 @@ menuController = {
       {
         id: 1,
         nombre: "Carpaccio fresco",
-        descripcion: "Entrada Carpaccio de salmón con cítricos",
+      
         precio: 65.5,
         imagenUrl: "/images/Carpaccio-de-salmon.jpg",
       },

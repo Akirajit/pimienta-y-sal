@@ -35,24 +35,23 @@
 
     <!-- Page content -->
     <div class="ps-content">
-
       <!-- Menu Section -->
       <div class="ps-row ps-padding-64" id="menu">
         <div class="ps-col l6 ps-padding-large">
-          <h1 class="ps-center"> <%= plato.nombre %> </h1>
+          <h1 class="ps-center"><%= plato.nombre %></h1>
           <br />
-          <h4><%= plato.descripcion %> </h4>
-          <p class="ps-text-grey">
-            U$S <%= plato.precio %>
-          </p>
+          <% if (plato.descripcion=="" || plato.descripcion==undefined ||
+          plato.descripcion ==null) { %>
+          <h4>Plato típico</h4>
+          <% } else { %>
+          <h4><%= plato.descripcion %></h4>
+          <% } %>
+          <p class="ps-text-grey">U$S <%= plato.precio %></p>
         </div>
 
         <div class="ps-col l6 ps-padding-large ps-img-menu">
-          <img
-            src=<%= plato.imagenUrl %> 
-            class="ps-round ps-image ps-opacity-min"
-            alt="Menu"
-          />
+          <img src="<%" ="plato.imagenUrl" % />
+          class="ps-round ps-image ps-opacity-min" alt="Menu" />
         </div>
       </div>
 

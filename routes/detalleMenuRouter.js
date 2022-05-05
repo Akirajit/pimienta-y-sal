@@ -6,7 +6,7 @@ var menuController = require('../controllers/menuController')
 router.get('/:id', function(req, res, next) {
   let platos = menuController.listarPlatos();
   let plato = platos.find(plato => plato.id == req.params.id)
-  res.render('detalleMenu', {plato:plato} );
+  res.render('detalleMenu', {plato:plato , defaultMessage:"Plato Típico"} );
 });
 
 module.exports = router;
